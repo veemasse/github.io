@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "%3Cgithubtunnus%3E.github.io/fanikauppa/precache-manifest.3609cd8d0c8f074dc0e16ccb6591e7f3.js"
+  "/fanikauppa/precache-manifest.ff0a5ddcbe1774074a97c99297ed66e7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("%3Cgithubtunnus%3E.github.io/fanikauppa/index.html", {
+workbox.routing.registerNavigationRoute("/fanikauppa/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
